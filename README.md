@@ -10,17 +10,17 @@ Data Description :
 
 We are providing a training dataset( of 20k samples ) describing trips/samples for past 2 years ( from 01/01/2015 to 31/12/2016 ) for different modes of transport in different cities of India . Each data sample corresponds to one complete trip . it contains 11 features as follows :-
 
-ID( Integer ) : It is a unique identifier for different samples .
-TIMESTAMP( Datetime ) : It is trip start time . It’s format is like (Year) - (Month) - (Day) (Hours) : ( Minutes ) : (Seconds ).
-STARTING_LATITUDE( Float ) : It is trip start time position’s latitude in degree North .
-STARTING_LONGITUDE( Float ) : It is trip start time position’s longitude in degree East .
-DESTINATION_LATITUDE( Float ) : It is trip stop time position’s latitude in degree North.
-DESTINATION_LONGITUDE( Float ) : It is trip stop time position’s longitude in degree East.
-VEHICLE_TYPE( String ) : It tells different transport vehicle type used for the trip .
-TOTAL_LUGGAGE_WEIGHT( Float ) : It is total luggage carried by the passenger in kilograms .
-WAIT_TIME( Float ) : It is the time for which driver waited for the passenger before start of the trip in minutes .
-TRAFFIC_STUCK_TIME( Integer ) : It is the time for which vehicle waited in traffic in minutes .
-DISTANCE( Integer ) : It is total distance covered in a trip in kilometres . Moreover , file contains TARGET VARIABLE - FARE( Integer ) which tells complete trip cost .
+    ID( Integer ) : It is a unique identifier for different samples.
+    TIMESTAMP( Datetime ) : It is trip start time . It’s format is like (Year) - (Month) - (Day) (Hours) : ( Minutes ) : (Seconds ).
+    STARTING_LATITUDE( Float ) : It is trip start time position’s latitude in degree North .
+    STARTING_LONGITUDE( Float ) : It is trip start time position’s longitude in degree East .
+    DESTINATION_LATITUDE( Float ) : It is trip stop time position’s latitude in degree North.
+    DESTINATION_LONGITUDE( Float ) : It is trip stop time position’s longitude in degree East.
+    VEHICLE_TYPE( String ) : It tells different transport vehicle type used for the trip .
+    TOTAL_LUGGAGE_WEIGHT( Float ) : It is total luggage carried by the passenger in kilograms .
+    WAIT_TIME( Float ) : It is the time for which driver waited for the passenger before start of the trip in minutes .
+    TRAFFIC_STUCK_TIME( Integer ) : It is the time for which vehicle waited in traffic in minutes .
+    DISTANCE( Integer ) : It is total distance covered in a trip in kilometres . Moreover , file contains TARGET VARIABLE - FARE( Integer ) which tells complete trip cost .
 
 File Descriptions :
 
