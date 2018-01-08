@@ -24,4 +24,6 @@ We are providing a training dataset( of 20k samples ) describing trips/samples f
 
 File Descriptions :
 
-intracity_fare_train.csv - The training dataset . intracity_fare_test.csv - The test set . intracity_fare_sample_submission.csv - A sample submission file .
+intracity_fare_train.csv - The training dataset 
+intracity_fare_test.csv - The test set 
+intracity_fare_sample_submission.csv - A sample submission file .
