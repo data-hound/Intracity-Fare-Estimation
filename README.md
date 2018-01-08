@@ -27,3 +27,6 @@ File Descriptions :
 intracity_fare_train.csv - The training dataset 
 intracity_fare_test.csv - The test set 
 intracity_fare_sample_submission.csv - A sample submission file .
+FDA => Full Data Analysis
+Compiled files are the code prepared for final compilation and output generation
+
